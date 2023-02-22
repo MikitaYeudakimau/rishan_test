@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'src.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': env('SQL_ENGINE'),
-        'NAME': BASE_DIR / os.environ.get('SQL_DATABASE', 'db.sqlite3'),
+        'NAME': BASE_DIR / env('SQL_DATABASE'),
     }
 }
 
