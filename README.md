@@ -38,5 +38,6 @@ Bonus tasks implemented:
 4) server deployment
 
 You can check this API at https://nikevdokimov.pythonanywhere.com/
+
 P.S. I leave the DEBUG mode to see allowed urls.
 
