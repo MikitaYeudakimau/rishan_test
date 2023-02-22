@@ -24,7 +24,10 @@ ___
 
 > $ docker-compose up -d --build
 
-4) Use admin rights to fill database (login:passowrd | admin:admin).
+4) Connect to docker container and then: create superusers and fill Item model through admin panel.
+> $ docker exec -it webapp sh
+
+> /app/src #  python manage.py createsuperuser
 5) Test it out at http://localhost:8000.
 ---
 Bonus tasks implemented:

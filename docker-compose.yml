@@ -15,7 +15,7 @@ services:
     volumes:
       - ./app:/src
     env_file:
-      - ./.env.dev
+      - ./src/src/.env
     ports:
       - "8000:8000"
     command: >
